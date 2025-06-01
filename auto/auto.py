@@ -1,9 +1,12 @@
 import pyautogui
 import time
+import webbrowser
 
-#アプリ立ち上げ
-#time.sleep(3)
+url = input("Enter the URL of the website:")
+webbrowser.open_new_tab(url)
 
-x, y = 435, 1405
-pyautogui.doubleClick(x, y)
-print("クリックしました！")
+time.sleep(2)
+
+x, y = 1230, 200
+pyautogui.click(x, y)
+print("Clicked")
