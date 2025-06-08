@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf8'?>
+<nuitka-compilation-report nuitka_version="2.7.6" nuitka_commercial_version="not installed" mode="accelerated" completion="error exit message (1)" exit_message="Failed unexpectedly in Scons C backend compilation.">
+  <module name="__main__" kind="PythonMainModule" usage="root_module" reason="Root module" source_path="${cwd}\autocopy.py">
+    <optimization-time pass="1" time="0.02" micro_passes="4" max_branch_merge="1" merged_total="4" />
+    <optimization-time pass="2" time="0.00" micro_passes="1" max_branch_merge="1" merged_total="1" />
+    <module_usages>
+      <module_usage name="site" finding="excluded" line="1" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+      <module_usage name="pyautogui" finding="absolute" line="1" />
+      <module_usage name="time" finding="absolute" line="2" />
+      <module_usage name="webbrowser" finding="excluded" line="3" exclusion_reason="Not following into stdlib unless standalone or requested to follow into stdlib." />
+    </module_usages>
+  </module>
+  <performance>
+    <memory_usage name="after_launch" value="43491328" />
+    <memory_usage name="before_c_code_generation" value="44523520" />
+    <memory_usage name="before_running_scons" value="45723648" />
+  </performance>
+  <data_composer blob_size="1208" total="130">
+    <module_data filename="__bytecode.const" blob_name=".bytecode" blob_size="3" input_size="0" />
+    <module_data filename="__constants.const" blob_name="" blob_size="892" input_size="2246" />
+    <module_data filename="module.__main__.const" blob_name="__main__" blob_size="273" input_size="571" />
+  </data_composer>
+  <command_line>
+    <option value="autocopy.py" />
+  </command_line>
+  <plugins>
+    <plugin name="anti-bloat" user_enabled="no" />
+    <plugin name="eventlet" user_enabled="no" />
+    <plugin name="gi" user_enabled="no" />
+    <plugin name="implicit-imports" user_enabled="no" />
+    <plugin name="multiprocessing" user_enabled="no" />
+    <plugin name="options-nanny" user_enabled="no" />
+    <plugin name="pkg-resources" user_enabled="no" />
+    <plugin name="transformers" user_enabled="no" />
+  </plugins>
+  <distributions />
+  <python python_exe="${sys.prefix}\python.exe" python_flavor="CPython Official" python_version="3.13.4" os_name="Windows" os_release="11" arch_name="x86_64" filesystem_encoding="utf-8">
+    <search_path>
+      <path value="${cwd}" />
+      <path value="${sys.prefix}\DLLs" />
+      <path value="${sys.prefix}\Lib" />
+      <path value="${sys.prefix}" />
+      <path value="~\AppData\Roaming\Python\Python313\site-packages" />
+      <path value="${sys.prefix}\Lib\site-packages" />
+      <path value="~\AppData\Roaming\Python\Python313\site-packages\setuptools\_vendor" />
+    </search_path>
+  </python>
+  <output run_filename="${cwd}\autocopy.cmd" />
+</nuitka-compilation-report>
