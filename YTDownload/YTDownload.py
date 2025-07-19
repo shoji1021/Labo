@@ -4,7 +4,7 @@ import pyfiglet
 from colorama import Fore
 
 text = pyfiglet.figlet_format("YouTube Downloader", font="slant")
-print(Fore.RED + text)
+print(Fore.GREEN + text)
 DOWNLOAD_DIR = os.path.join(os.path.expanduser("~"), "Downloads")
 
 URL = input(Fore.WHITE + "YouTube動画のURLを入力してください: ").strip()
